@@ -1,0 +1,82 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa; 
+  }
+  
+  .form-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+  
+  .form-label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+    color: #495057; 
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ced4da; 
+    border-radius: 4px;
+    transition: border-color 0.2s ease-in-out;  
+  }
+  
+  .form-input:focus {
+    border-color: #007bff; 
+  }
+  
+  .form-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff; 
+    color: #ffffff; 
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;  
+  }
+  
+  .form-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .form-text {
+    margin-top: 10px;
+    text-align: center;
+    color: #6c757d; 
+  }
+  
+  .link-button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    color: #007bff; 
+    border: 1px solid #007bff; 
+    border-radius: 4px;
+    background-color: #ffffff;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out; 
+  }
+  
+  .link-button:hover {
+    background-color: #f8f9fa; 
+    color: #0056b3; 
+  }
+  
